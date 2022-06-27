@@ -12,3 +12,6 @@ const Seo = () => {
 };
 
 export default Seo;
+
+// tab's name and identifier for SEO
+// UNDERSTOOD

@@ -1,9 +1,17 @@
-import { Button, useColorMode, useColorModeValue } from "@chakra-ui/react";
+import { IconButton, useColorMode, useColorModeValue } from "@chakra-ui/react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 
 const Switch: React.FC = () => {
   const { colorMode, toggleColorMode } = useColorMode();
-  return <Button variant="ghost" onClick={toggleColorMode}></Button>;
+  return (
+    <IconButton
+      onClick={toggleColorMode}
+      variant="ghost"
+      size="sm"
+      icon={colorMode === "light" ? <MoonIcon /> : <SunIcon />}
+      aria-label="Toggle color mode"
+    />
+  );
 };
 
 export default Switch;
