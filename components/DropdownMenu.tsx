@@ -1,6 +1,5 @@
-import { TriangleDownIcon, TriangleUpIcon } from "@chakra-ui/icons";
+import { HamburgerIcon } from "@chakra-ui/icons";
 import {
-  Box,
   LinkBox,
   LinkOverlay,
   Menu,
@@ -16,9 +15,8 @@ export default function Dropdown(): JSX.Element {
     <Menu>
       <MenuButton
         as={IconButton}
-        // change icon to triangle up after click
-        icon={<TriangleDownIcon />}
-        aria-label="Toggle menu"
+        icon={<HamburgerIcon />}
+        isRound
         variant="ghost"
         mr="auto"
       />
