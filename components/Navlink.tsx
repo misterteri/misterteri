@@ -1,28 +1,27 @@
-import { Link, useColorModeValue } from "@chakra-ui/react";
-import Page from "next/link";
+import { Link } from "@chakra-ui/react";
+import NextLink from "next/link";
 
-const Navlink = ({
+export default function Navlink({
   href,
   children,
 }: {
   href: string;
   children: React.ReactNode;
-}) => {
+}): JSX.Element {
   return (
-    <Page href={href}>
+    <NextLink href={href}>
       <Link
-        px={4}
-        py={2}
+        mr={5}
         rounded={"md"}
+        variant="ghost"
         _hover={{
-          textDecoration: "none",
-          bg: useColorModeValue("gray.200", "gray.700"),
+          textDecoration: "underline",
         }}
       >
         {children}
       </Link>
-    </Page>
+    </NextLink>
   );
-};
+}
 
-export default Navlink;
+// UNDERSTOOD

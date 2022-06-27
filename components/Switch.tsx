@@ -7,7 +7,6 @@ const Switch: React.FC = () => {
     <IconButton
       onClick={toggleColorMode}
       variant="ghost"
-      size="sm"
       icon={colorMode === "light" ? <MoonIcon /> : <SunIcon />}
       aria-label="Toggle color mode"
     />
