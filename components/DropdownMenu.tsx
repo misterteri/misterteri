@@ -16,33 +16,56 @@ export default function Dropdown(): JSX.Element {
       <MenuButton
         as={IconButton}
         icon={<HamburgerIcon />}
-        isRound
         variant="ghost"
-        mr="auto"
+        mr={2}
+        _hover={{
+          bg: "gray.200",
+          transition: "all 0.3s ease-in-out",
+        }}
       />
       <MenuList alignItems={"center"}>
-        <LinkBox>
+        <LinkBox
+          _hover={{
+            bg: "gray.200",
+            transition: "all 0.3s ease-in-out",
+          }}
+        >
           <MenuItem>
             <NextLink href="/" passHref>
               <LinkOverlay>Home</LinkOverlay>
             </NextLink>
           </MenuItem>
         </LinkBox>
-        <LinkBox>
+        <LinkBox
+          _hover={{
+            bg: "gray.200",
+            transition: "all 0.3s ease-in-out",
+          }}
+        >
           <MenuItem>
             <NextLink href="/blog" passHref>
               <LinkOverlay>Blog</LinkOverlay>
             </NextLink>
           </MenuItem>
         </LinkBox>
-        <LinkBox>
+        <LinkBox
+          _hover={{
+            bg: "gray.200",
+            transition: "all 0.3s ease-in-out",
+          }}
+        >
           <MenuItem>
             <NextLink href="/about" passHref>
               <LinkOverlay>About</LinkOverlay>
             </NextLink>
           </MenuItem>
         </LinkBox>
-        <LinkBox>
+        <LinkBox
+          _hover={{
+            bg: "gray.200",
+            transition: "all 0.3s ease-in-out",
+          }}
+        >
           <MenuItem>
             <NextLink href="/portfolio" passHref>
               <LinkOverlay>Portfolio</LinkOverlay>

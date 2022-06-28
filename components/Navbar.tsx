@@ -1,4 +1,4 @@
-import { Box, Flex, useMediaQuery } from "@chakra-ui/react";
+import { Box, Flex, useMediaQuery, Spacer } from "@chakra-ui/react";
 import Navlink from "./Navlink";
 import Dropdown from "./DropdownMenu";
 import Switch from "./Switch";
@@ -21,7 +21,7 @@ export default function Navigation(): JSX.Element {
           </>
         ) : (
           <>
-            <Flex mr="auto">
+            <Flex color="000000" fontSize="inherit" fontFamily={"open sans"}>
               <Navlink href="/">Home</Navlink>
               <Navlink href="/blog">Blog</Navlink>
               <Navlink href="/about">About</Navlink>
@@ -29,6 +29,7 @@ export default function Navigation(): JSX.Element {
             </Flex>
           </>
         )}
+        <Spacer />
         <Switch />
       </Flex>
     </Box>

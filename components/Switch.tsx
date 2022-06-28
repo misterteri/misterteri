@@ -9,6 +9,10 @@ const Switch: React.FC = () => {
       variant="ghost"
       icon={colorMode === "light" ? <MoonIcon /> : <SunIcon />}
       aria-label="Toggle color mode"
+      _hover={{
+        bg: "gray.200",
+        transition: "all 0.3s ease-in-out",
+      }}
     />
   );
 };

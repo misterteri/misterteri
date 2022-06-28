@@ -11,11 +11,14 @@ export default function Navlink({
   return (
     <NextLink href={href}>
       <Link
-        mr={5}
+        mr={2}
         rounded={"md"}
         variant="ghost"
+        paddingInline={4}
+        paddingBlock={2}
         _hover={{
-          textDecoration: "underline",
+          bg: "gray.200",
+          transition: "all 0.3s ease-in-out",
         }}
       >
         {children}
@@ -24,4 +27,5 @@ export default function Navlink({
   );
 }
 
+// for NavBar.tsx,
 // UNDERSTOOD
