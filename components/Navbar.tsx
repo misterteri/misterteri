@@ -21,7 +21,7 @@ export default function Navigation(): JSX.Element {
           </>
         ) : (
           <>
-            <Flex color="000000" fontSize="inherit" fontFamily={"open sans"}>
+            <Flex color="000000" fontSize="15" fontFamily={""}>
               <Navlink href="/">Home</Navlink>
               <Navlink href="/blog">Blog</Navlink>
               <Navlink href="/about">About</Navlink>

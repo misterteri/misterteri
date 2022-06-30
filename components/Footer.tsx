@@ -32,6 +32,11 @@ const Footer: React.FC = () => {
               variant="ghost"
               icon={item.icon}
               aria-label={item.key}
+              padding={1}
+              _hover={{
+                bg: "gray.200",
+                transition: "all 0.3s ease-in-out",
+              }}
             />
           </Link>
         ))}
