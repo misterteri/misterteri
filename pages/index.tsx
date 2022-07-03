@@ -10,16 +10,12 @@ const Home: NextPage = () => {
           Hello
         </Heading>
         <Flex fontFamily={"helvetica"} fontSize="3xl" gap={2}>
-          I'm
-          <Text
-            as="h1"
-            color="#9FADC6"
-            fontWeight={700}
-            fontFamily={"helvetica"}
-          >
-            {" Marcellino "}
+          <Text color="#394760" fontWeight={500}>
+            {"I'm"}
           </Text>
-          <Text fontWeight={700}>Gilbert</Text>
+          <Text color="#9FADC6" fontWeight={700}>
+            {" Marcellino Gilbert"}
+          </Text>
         </Flex>
       </VStack>
     </Layout>
