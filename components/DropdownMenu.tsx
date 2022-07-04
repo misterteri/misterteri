@@ -18,15 +18,21 @@ export default function Dropdown(): JSX.Element {
         icon={<HamburgerIcon />}
         variant="ghost"
         mr={2}
+        color={"#9FADC6"}
+        fontWeight={"500"}
         _hover={{
-          bg: "gray.200",
+          bg: "#9FADC6",
+          color: "#0C0E13",
           transition: "all 0.3s ease-in-out",
         }}
       />
       <MenuList alignItems={"center"}>
         <LinkBox
+          color={"#9FADC6"}
+          fontWeight={"500"}
           _hover={{
-            bg: "gray.200",
+            bg: "#9FADC6",
+            color: "#0C0E13",
             transition: "all 0.3s ease-in-out",
           }}
         >
@@ -37,8 +43,11 @@ export default function Dropdown(): JSX.Element {
           </MenuItem>
         </LinkBox>
         <LinkBox
+          color={"#9FADC6"}
+          fontWeight={"500"}
           _hover={{
-            bg: "gray.200",
+            bg: "#9FADC6",
+            color: "#0C0E13",
             transition: "all 0.3s ease-in-out",
           }}
         >
@@ -49,8 +58,11 @@ export default function Dropdown(): JSX.Element {
           </MenuItem>
         </LinkBox>
         <LinkBox
+          color={"#9FADC6"}
+          fontWeight={"500"}
           _hover={{
-            bg: "gray.200",
+            bg: "#9FADC6",
+            color: "#0C0E13",
             transition: "all 0.3s ease-in-out",
           }}
         >
@@ -61,8 +73,11 @@ export default function Dropdown(): JSX.Element {
           </MenuItem>
         </LinkBox>
         <LinkBox
+          color={"#9FADC6"}
+          fontWeight={"500"}
           _hover={{
-            bg: "gray.200",
+            bg: "#9FADC6",
+            color: "#0C0E13",
             transition: "all 0.3s ease-in-out",
           }}
         >

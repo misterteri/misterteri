@@ -3,14 +3,17 @@ import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 
 const Switch: React.FC = () => {
   const { colorMode, toggleColorMode } = useColorMode();
+  const Icon = useColorModeValue(SunIcon, MoonIcon);
   return (
     <IconButton
       onClick={toggleColorMode}
       variant="ghost"
-      icon={colorMode === "light" ? <MoonIcon /> : <SunIcon />}
       aria-label="Toggle color mode"
+      icon={<Icon />}
+      color={"#9FADC6"}
       _hover={{
-        bg: "gray.200",
+        bg: "#9FADC6",
+        color: "#0C0E13",
         transition: "all 0.3s ease-in-out",
       }}
     />
