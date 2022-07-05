@@ -23,7 +23,7 @@ export default function Navigation(): JSX.Element {
           <>
             <Flex>
               <Navlink href="/">Home</Navlink>
-              <Navlink href="/blog">Blog</Navlink>
+              <Navlink href="/archives">Archives</Navlink>
               <Navlink href="/about">About</Navlink>
               <Navlink href="/portfolio">Portfolio</Navlink>
             </Flex>

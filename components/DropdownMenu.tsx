@@ -52,8 +52,8 @@ export default function Dropdown(): JSX.Element {
           }}
         >
           <MenuItem>
-            <NextLink href="/blog" passHref>
-              <LinkOverlay>Blog</LinkOverlay>
+            <NextLink href="/archives" passHref>
+              <LinkOverlay>Archives</LinkOverlay>
             </NextLink>
           </MenuItem>
         </LinkBox>
