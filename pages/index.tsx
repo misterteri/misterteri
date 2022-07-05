@@ -3,7 +3,8 @@ import Layout from "../components/layouts/Page";
 import { Heading, VStack, Text, Flex, HStack, Image } from "@chakra-ui/react";
 import NiceAvatar, { genConfig } from "react-nice-avatar";
 
-const config = {
+// create object AvatarConfig
+const AvatarConfig = genConfig({
   sex: "man",
   faceColor: "#F9C9B6",
   earSize: "big",
@@ -14,15 +15,10 @@ const config = {
   glassesStyle: "round",
   hairColor: "#000",
   hairStyle: "thick",
-  hatStyle: "none",
-  hatColor: "#D2EFF3",
   eyeBrowStyle: "up",
   shirtColor: "#77311D",
   bgColor: "#9FADC6",
-  shape: "square",
-};
-
-const myConfig = genConfig(config);
+});
 
 const Home: NextPage = () => {
   return (
@@ -47,7 +43,10 @@ const Home: NextPage = () => {
             </Text>
           </Flex>
         </VStack>
-        <NiceAvatar style={{ width: "10rem", height: "10rem" }} {...myConfig} />
+        <NiceAvatar
+          style={{ width: "10rem", height: "10rem" }}
+          {...AvatarConfig}
+        />
       </HStack>
     </Layout>
   );
