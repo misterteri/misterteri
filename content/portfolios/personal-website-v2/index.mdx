@@ -1,0 +1,95 @@
+---
+title: "My Personal Website v2.0"
+date: "2022-06-20"
+readingTime: 5 mins
+description: My current personal website made with Next.js and ChakraUI
+publish: true
+---
+
+![My Personal Website v2.0](/images/portfolios/personal-website-v2/pw.png)
+
+My personal website is hosted on [Vercel](https://Vercel.com/) at https://bsraya.vercel.app/
+
+## Tech Stack
+
+1. React
+2. Next.js
+3. ChakraUI
+4. MDX
+5. Firebase
+6. Vercel
+
+# Introduction
+
+I chose Next.js to be the framework for my website because it is the most popular framework for React.
+The next reason of choosing Next.js is that it has a way shorter built time. Unlike Gatsbyjs, it takes 1 to 5 minutes for any changes to takes effect depending on the size of the website.
+Let's say we have 20 blog pages, then the build time will be about 10 minutes or even more.
+With Next.js, it will be only 1 or 2 minutes.
+
+# Chakra UI
+
+Back while developing my first personal website, I decorate the entire website from scratch.
+At the beginning, it started easy. Once the number of components increased, maintaining its styling became a challenge.
+Thus, I need something that is easy to maintain and consistent across the entire website.
+
+That was when I started considering to use ChakraUI because it is ready to use out of the box. Unlike TailWindCSS or Theme UI, it does not require that much configuration.
+The only thing that I need is to install and wrap the `<ChakraProvider>` component around all Next.js components.
+
+Moreover, customizing the theme is easy. First, I have to create a file called `theme.tsx`, under `./styles` in the main directory of the project.
+
+```typescript:theme.tsx
+import { extendTheme } from "@chakra-ui/react";
+
+const Theme = extendTheme({
+    fonts: {
+        body: "Inter, sans-serif",
+    },
+});
+
+export default Theme;
+```
+
+Once the customized theme has been created, the theme should be included in `_app.tsx` file.
+
+```typescript:_app.tsx {3,7}
+import type { AppProps } from 'next/app'
+import { Theme } from '../styles/theme'
+import { ChakraProvider } from '@chakra-ui/react'
+
+function MyApp({ Component, pageProps }: AppProps) {
+    return (
+        <ChakraProvider theme={Theme}>
+            <Component {...pageProps} />
+        </ChakraProvider>
+    )
+}
+
+export default MyApp
+```
+
+Simply put, the usage of ChakraUI is pretty straight forward. Thus, it became the choice of my framework.
+
+# MDX
+
+The reason I chose MDX is it allows me incorporate mathematical equations in my website.
+Some of my posts, for example the posts in the [Gradient Descent: An Optimization Algorithm](/blog/gradient-descent) series, requires alot of maths to explain.
+
+Besides that, there are still many other features that we can implement. [Click here](https://github.com/remarkjs/remark/blob/main/doc/plugins.md) to see the lists of plugins. 
+
+In my own website, I added:
+
+* [Github Flavored Markdown](https://github.github.com/gfm/#what-is-github-flavored-markdown-) styling
+* Code and syntax highlightings
+* Katex for mathematical equations
+
+I did not include that much features because more features translate to longer build time. 
+
+# Firebase
+
+Since I want to keep track the engagement of each post, I chose Firebase as the database.
+With Firebase, I can store the number of views of each post. In the future, I plan to keep track the number of likes of each post.
+
+# Vercel
+
+Lastly, I chose Vercel as the hosting platform because it is the most popular hosting platform for Next.js, and it is free for hobby projects.
+Most importantly, it's easy to setup and Vercel integrates very well with Github.
