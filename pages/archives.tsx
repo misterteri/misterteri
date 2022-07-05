@@ -10,10 +10,10 @@ import {
 } from "@chakra-ui/react";
 import fs from "fs";
 import path from "path";
-import matter from "gray-matter";
-import Layout from "../components/Layout";
-import type { Post } from "../lib/types";
-import Posts from "../components/Posts";
+import matter from "gray-matter"; // to parse the frontmatter to the object
+import Layout from "../components/Layout"; // layout settings
+import type { Post } from "../lib/types"; // type definition for the posts
+import Posts from "../components/Posts"; // archives post list and styling
 import { useMemo, useState } from "react";
 import { FiSearch } from "react-icons/fi";
 import sortPost from "../lib/sortpost";
@@ -32,7 +32,9 @@ export default function Blog({ posts }: { posts: Post[] }): JSX.Element {
 
   return (
     <Layout>
-      <Heading>Blog</Heading>
+      <Heading as="h1" color={"#394760"}>
+        Archives
+      </Heading>
       <FormControl mt={5}>
         <InputGroup>
           <InputLeftElement
@@ -40,13 +42,18 @@ export default function Blog({ posts }: { posts: Post[] }): JSX.Element {
             fontSize="1.2em"
             px={0}
             zIndex={0}
+            color={"#9FADC6"}
           >
-            <FiSearch aria-hidden />
+            <FiSearch />
           </InputLeftElement>
           <Input
             value={search}
             onChange={(e: any) => setSearch(e.target.value)}
             placeholder="Search articles"
+            _placeholder={{
+              color: "#9FADC6",
+              opacity: 0.5,
+            }}
           />
           {search.length > 1 && (
             <InputRightElement>

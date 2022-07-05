@@ -1,4 +1,4 @@
-import Tags from "./Tags";
+import Tags from "./Tags"; // for hastags setting
 import NextLink from "next/link";
 import { DateTime } from "luxon";
 
@@ -24,15 +24,16 @@ export default function Posts({
             rounded="md"
             key={post.slug}
             borderColor="transparent"
+            color="#9FADC6"
             _hover={{
               border: "2px solid",
-              borderColor: "#fc909f",
+              borderColor: "#9FADC6",
               boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.1)",
-              transition: "all 0.2s ease-in-out",
-              transform: "translateY(-10px)",
+              transition: "all 0.3s ease-in-out",
+              //transform: "translateY(-10px)",
             }}
           >
-            <Text fontSize="sm" color="gray.500">
+            <Text fontSize="sm" color="#60759F">
               {DateTime.fromISO(post.frontMatter.date).toFormat(
                 "LLLL dd, yyyy"
               )}{" "}
@@ -41,10 +42,12 @@ export default function Posts({
             </Text>
             <NextLink href={"/" + type + "/" + post.slug} passHref>
               <LinkOverlay>
-                <Heading as="h1">{post.frontMatter.title}</Heading>
+                <Heading as="h1" color={"#394760"}>
+                  {post.frontMatter.title}
+                </Heading>
               </LinkOverlay>
             </NextLink>
-            <Text as="p" my={5}>
+            <Text as="p" my={5} color="#9FADC6">
               {post.frontMatter.description}
             </Text>
             {post.frontMatter.tags && <Tags tags={post.frontMatter.tags} />}
