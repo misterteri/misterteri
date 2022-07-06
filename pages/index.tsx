@@ -1,8 +1,14 @@
-import type { NextPage } from "next";
 import Layout from "../components/layouts/Page";
-import { Heading, VStack, Text, Flex, HStack, Image } from "@chakra-ui/react";
+import {
+  Heading,
+  VStack,
+  Text,
+  Flex,
+  HStack,
+  useMediaQuery,
+  Spacer,
+} from "@chakra-ui/react";
 import NiceAvatar, { genConfig } from "react-nice-avatar";
-
 // create object AvatarConfig
 const AvatarConfig = genConfig({
   sex: "man",
@@ -15,39 +21,74 @@ const AvatarConfig = genConfig({
   glassesStyle: "round",
   hairColor: "#000",
   hairStyle: "thick",
+  hatStyle: "none",
   eyeBrowStyle: "up",
   shirtColor: "#77311D",
   bgColor: "#9FADC6",
 });
+// isMobile
+const Home = (): JSX.Element => {
+  const [isMobile] = useMediaQuery("(max-width: 768px)");
 
-const Home: NextPage = () => {
   return (
     <Layout>
-      <HStack spacing={"8"}>
-        <VStack align={"left"}>
-          <Heading
-            as="h3"
-            fontSize={"sm"}
-            fontFamily={"helvetica"}
-            fontWeight={500}
-            color={"#394760"}
-          >
-            Hello
-          </Heading>
-          <Flex fontFamily={"helvetica"} fontSize="3xl" gap={2}>
-            <Text color="#394760" fontWeight={500}>
-              {"I'm"}
-            </Text>
-            <Text color="#9FADC6" fontWeight={700}>
-              {" Marcellino Gilbert"}
-            </Text>
-          </Flex>
-        </VStack>
-        <NiceAvatar
-          style={{ width: "10rem", height: "10rem" }}
-          {...AvatarConfig}
-        />
-      </HStack>
+      {isMobile ? (
+        <>
+          <VStack spacing={8}>
+            <Heading as="h3" size="md">
+              <NiceAvatar
+                style={{ width: "10rem", height: "10rem" }}
+                {...AvatarConfig}
+              />
+            </Heading>
+            <Heading
+              as="h3"
+              fontSize={"sm"}
+              fontFamily={"helvetica"}
+              fontWeight={500}
+              color={"#394760"}
+            >
+              Hello,
+            </Heading>
+            <Flex fontFamily={"helvetica"} fontSize="3xl" gap={2}>
+              <Text color="#394760" fontWeight={500}>
+                {"I'm"}
+              </Text>
+              <Text color="#9FADC6" fontWeight={700}>
+                {" Marcellino Gilbert"}
+              </Text>
+            </Flex>
+          </VStack>
+        </>
+      ) : (
+        <>
+          <HStack spacing={"4"}>
+            <VStack align={"left"}>
+              <Heading
+                as="h3"
+                fontSize={"sm"}
+                fontFamily={"helvetica"}
+                fontWeight={500}
+                color={"#394760"}
+              >
+                Hello,
+              </Heading>
+              <Flex fontFamily={"helvetica"} fontSize="3xl" gap={2}>
+                <Text color="#394760" fontWeight={500}>
+                  {"I'm"}
+                </Text>
+                <Text color="#9FADC6" fontWeight={700}>
+                  {" Marcellino Gilbert"}
+                </Text>
+              </Flex>
+            </VStack>
+            <NiceAvatar
+              style={{ width: "10rem", height: "10rem" }}
+              {...AvatarConfig}
+            />
+          </HStack>
+        </>
+      )}
     </Layout>
   );
 };
