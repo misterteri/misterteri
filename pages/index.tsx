@@ -1,4 +1,4 @@
-import Layout from "../components/layouts/Page";
+import Layout from "../components/Layout";
 import {
   Heading,
   VStack,
@@ -26,7 +26,7 @@ const AvatarConfig = genConfig({
   shirtColor: "#77311D",
   bgColor: "#9FADC6",
 });
-// isMobile
+
 const Home = (): JSX.Element => {
   const [isMobile] = useMediaQuery("(max-width: 768px)");
 
@@ -37,6 +37,7 @@ const Home = (): JSX.Element => {
           <VStack spacing={8}>
             <Heading as="h3" size="md">
               <NiceAvatar
+                shape={"rounded"}
                 style={{ width: "10rem", height: "10rem" }}
                 {...AvatarConfig}
               />

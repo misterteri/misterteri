@@ -23,14 +23,14 @@ export default function Posts({
             borderWidth="2px"
             rounded="md"
             key={post.slug}
-            borderColor="transparent"
+            borderColor="#394760"
             color="#9FADC6"
             _hover={{
               border: "2px solid",
               borderColor: "#9FADC6",
-              boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.1)",
+              boxShadow: "0px 3px 10px rgb(255,255,255,0.3)",
               transition: "all 0.3s ease-in-out",
-              //transform: "translateY(-10px)",
+              transform: "translateY(-5px)",
             }}
           >
             <Text fontSize="sm" color="#60759F">

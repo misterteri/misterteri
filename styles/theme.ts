@@ -18,6 +18,13 @@ const theme = extendTheme(
       global: {
         body: {
           backgroundColor: "#0C0E13",
+          primaryColor: "#9FADC6",
+          secondaryColor: "#394760",
+          tertiaryColor: "#60759F",
+          lightBackgroundColor: "#FFFFFF",
+          lightprimaryColor: "#212B43",
+          lightsecondaryColor: "#65CFE6",
+          lighttertiaryColor: "#DDEFF3",
         },
       },
     },
