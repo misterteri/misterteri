@@ -1,3 +1,4 @@
+import theme from "../styles/theme";
 import Layout from "../components/Layout";
 import {
   Heading,
@@ -47,7 +48,7 @@ const Home = (): JSX.Element => {
               fontSize={"sm"}
               fontFamily={"helvetica"}
               fontWeight={500}
-              color={"#394760"}
+              color={theme.modes.dark.primary}
             >
               Hello,
             </Heading>

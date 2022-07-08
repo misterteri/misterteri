@@ -14,19 +14,27 @@ const theme = extendTheme(
     fonts: {
       body: "Helvetica",
     },
-    styles: {
-      global: {
-        body: {
-          backgroundColor: "#0C0E13",
-          primaryColor: "#9FADC6",
-          secondaryColor: "#394760",
-          tertiaryColor: "#60759F",
-          lightBackgroundColor: "#FFFFFF",
-          lightprimaryColor: "#212B43",
-          lightsecondaryColor: "#65CFE6",
-          lighttertiaryColor: "#DDEFF3",
-        },
+    modes: {
+      light: {
+        background: "#FFFFFF",
+        primary: "#212B43",
+        secondary: "#65CFE6",
+        tertiary: "#DDEFF3",
       },
+      dark: {
+        background: "#0C0E13",
+        primary: "#9FADC6",
+        secondary: "#394760",
+        tertiary: "#60759F",
+      },
+    },
+    colors: {
+      primary: "#9FADC6",
+      secondary: "#394760",
+      tertiary: "#60759F",
+      lightprimary: "#212B43",
+      lightsecondary: "#65CFE6",
+      lighttertiary: "#DDEFF3",
     },
   },
   config
