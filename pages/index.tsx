@@ -38,7 +38,7 @@ const Home = (): JSX.Element => {
           <VStack spacing={8}>
             <Heading as="h3" size="md">
               <NiceAvatar
-                shape={"rounded"}
+                shape={"circle"}
                 style={{ width: "10rem", height: "10rem" }}
                 {...AvatarConfig}
               />
