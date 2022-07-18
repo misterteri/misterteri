@@ -7,8 +7,12 @@ import {
   HStack,
   useMediaQuery,
   Spacer,
+  Box,
+  Link, // for external links
 } from "@chakra-ui/react";
 import NiceAvatar, { genConfig } from "react-nice-avatar";
+import NextLink from "next/link"; // optimize for inside links within the same website
+import { AiTwotoneBoxPlot } from "react-icons/ai";
 // create object AvatarConfig
 const AvatarConfig = genConfig({
   sex: "man",
@@ -42,41 +46,48 @@ const Home = (): JSX.Element => {
                 {...AvatarConfig}
               />
             </Heading>
-            <Heading
-              as="h3"
-              fontSize={"sm"}
-              fontFamily={"helvetica"}
-              fontWeight={500}
-            >
-              Hello,
-            </Heading>
-            <Flex fontFamily={"helvetica"} fontSize="3xl" gap={2}>
-              <Text fontWeight={500}>{"I'm a "}</Text>
-              <Text fontWeight={700}>{"Software Engineer"}</Text>
-            </Flex>
+
+            <Box fontFamily={"helvetica"} gap={2}>
+              <Heading as="h1">{"Marcelino Gilbert"}</Heading>
+              <Text fontSize={"smaller"}>
+                An Undergraduate Student at{" "}
+                <Link
+                  href={"https://ibp.nthu.edu.tw/"}
+                  fontStyle={"italic"}
+                  isExternal
+                >
+                  National Tsing Hua University
+                </Link>
+                .
+              </Text>
+            </Box>
           </VStack>
         </>
       ) : (
         <>
-          <HStack spacing={"4"}>
-            <VStack align={"left"}>
-              <Heading
-                as="h3"
-                fontSize={"sm"}
-                fontFamily={"helvetica"}
-                fontWeight={500}
-              >
-                Hello,
-              </Heading>
-              <Flex fontFamily={"helvetica"} fontSize="3xl" gap={2}>
-                <Text fontWeight={500}>{"I'm"}</Text>
-                <Text fontWeight={700}>{" Marcellino Gilbert"}</Text>
-              </Flex>
-            </VStack>
-            <NiceAvatar
-              style={{ width: "10rem", height: "10rem" }}
-              {...AvatarConfig}
-            />
+          <HStack>
+            <Box>
+              <Heading as="h1">{"Marcelino Gilbert"}</Heading>
+              <Text fontSize={"smaller"}>
+                An Undergraduate Student at{" "}
+                <Link
+                  href={"https://ibp.nthu.edu.tw/"}
+                  fontStyle={"italic"}
+                  isExternal
+                >
+                  National Tsing Hua University
+                </Link>
+                .
+              </Text>
+            </Box>
+            <Spacer />
+            <NextLink href="/about">
+              <NiceAvatar
+                shape={"circle"}
+                style={{ width: "10rem", height: "10rem" }}
+                {...AvatarConfig}
+              />
+            </NextLink>
           </HStack>
         </>
       )}
