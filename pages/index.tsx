@@ -1,4 +1,3 @@
-import theme from "../styles/theme";
 import Layout from "../components/Layout";
 import {
   Heading,
@@ -48,17 +47,12 @@ const Home = (): JSX.Element => {
               fontSize={"sm"}
               fontFamily={"helvetica"}
               fontWeight={500}
-              color={theme.modes.dark.primary}
             >
               Hello,
             </Heading>
             <Flex fontFamily={"helvetica"} fontSize="3xl" gap={2}>
-              <Text color="#394760" fontWeight={500}>
-                {"I'm"}
-              </Text>
-              <Text color="#9FADC6" fontWeight={700}>
-                {" Marcellino Gilbert"}
-              </Text>
+              <Text fontWeight={500}>{"I'm a "}</Text>
+              <Text fontWeight={700}>{"Software Engineer"}</Text>
             </Flex>
           </VStack>
         </>
@@ -71,17 +65,12 @@ const Home = (): JSX.Element => {
                 fontSize={"sm"}
                 fontFamily={"helvetica"}
                 fontWeight={500}
-                color={"#394760"}
               >
                 Hello,
               </Heading>
               <Flex fontFamily={"helvetica"} fontSize="3xl" gap={2}>
-                <Text color="#394760" fontWeight={500}>
-                  {"I'm"}
-                </Text>
-                <Text color="#9FADC6" fontWeight={700}>
-                  {" Marcellino Gilbert"}
-                </Text>
+                <Text fontWeight={500}>{"I'm"}</Text>
+                <Text fontWeight={700}>{" Marcellino Gilbert"}</Text>
               </Flex>
             </VStack>
             <NiceAvatar

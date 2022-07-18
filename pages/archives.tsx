@@ -32,9 +32,7 @@ export default function Blog({ posts }: { posts: Post[] }): JSX.Element {
 
   return (
     <Layout>
-      <Heading as="h1" color={"#394760"}>
-        Archives
-      </Heading>
+      <Heading as="h1">Archives</Heading>
       <FormControl mt={5}>
         <InputGroup>
           <InputLeftElement
@@ -42,7 +40,6 @@ export default function Blog({ posts }: { posts: Post[] }): JSX.Element {
             fontSize="1.2em"
             px={0}
             zIndex={0}
-            color={"#9FADC6"}
           >
             <FiSearch />
           </InputLeftElement>
@@ -51,7 +48,6 @@ export default function Blog({ posts }: { posts: Post[] }): JSX.Element {
             onChange={(e: any) => setSearch(e.target.value)}
             placeholder="Search articles"
             _placeholder={{
-              color: "#9FADC6",
               opacity: 0.5,
             }}
           />

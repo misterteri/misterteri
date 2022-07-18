@@ -33,18 +33,15 @@ const Footer: React.FC = () => {
               icon={item.icon}
               aria-label={item.key}
               padding={1}
-              color={"#9FADC6"}
               fontWeight={"500"}
               _hover={{
-                bg: "#9FADC6",
-                color: "#0C0E13",
                 transition: "all 0.3s ease-in-out",
               }}
             />
           </Link>
         ))}
       </Flex>
-      <Flex as="p" mt={2} color={"#9FADC6"} fontWeight={"500"}>
+      <Flex as="p" mt={2} fontWeight={"500"}>
         Marcelino Gilbert Tagore © {new Date().getFullYear()}
       </Flex>
     </Flex>

@@ -23,17 +23,15 @@ export default function Posts({
             borderWidth="2px"
             rounded="md"
             key={post.slug}
-            borderColor="#394760"
-            color="#9FADC6"
             _hover={{
               border: "2px solid",
-              borderColor: "#9FADC6",
+
               boxShadow: "0px 3px 10px rgb(255,255,255,0.3)",
               transition: "all 0.3s ease-in-out",
               transform: "translateY(-5px)",
             }}
           >
-            <Text fontSize="sm" color="#60759F">
+            <Text fontSize="sm">
               {DateTime.fromISO(post.frontMatter.date).toFormat(
                 "LLLL dd, yyyy"
               )}{" "}
@@ -42,12 +40,10 @@ export default function Posts({
             </Text>
             <NextLink href={"/" + type + "/" + post.slug} passHref>
               <LinkOverlay>
-                <Heading as="h1" color={"#394760"}>
-                  {post.frontMatter.title}
-                </Heading>
+                <Heading as="h1">{post.frontMatter.title}</Heading>
               </LinkOverlay>
             </NextLink>
-            <Text as="p" my={5} color="#9FADC6">
+            <Text as="p" my={5}>
               {post.frontMatter.description}
             </Text>
             {post.frontMatter.tags && <Tags tags={post.frontMatter.tags} />}

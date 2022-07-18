@@ -16,12 +16,10 @@ export default function Navlink({
         variant=""
         paddingInline={4}
         paddingBlock={2}
-        color={"#9FADC6"}
         fontWeight={"500"}
         _hover={{
-          bg: "#9FADC6",
-          color: "#0C0E13",
-          transition: "all 0.3s ease-in-out",
+          textDecoration: "underline",
+          transition: "all 0.25s ease-in-out",
         }}
       >
         {children}

@@ -6,38 +6,24 @@ const config: ThemeConfig = {
   initialColorMode: "light",
   useSystemColorMode: false,
 };
-
-// extend the theme
-
-const theme = extendTheme(
-  {
-    fonts: {
-      body: "Helvetica",
-    },
-    modes: {
-      light: {
-        background: "#FFFFFF",
-        primary: "#212B43",
-        secondary: "#65CFE6",
-        tertiary: "#DDEFF3",
-      },
-      dark: {
-        background: "#0C0E13",
-        primary: "#9FADC6",
-        secondary: "#394760",
-        tertiary: "#60759F",
-      },
-    },
-    colors: {
-      primary: "#9FADC6",
-      secondary: "#394760",
-      tertiary: "#60759F",
-      lightprimary: "#212B43",
-      lightsecondary: "#65CFE6",
-      lighttertiary: "#DDEFF3",
+const theme = extendTheme({
+  colors: {
+    brand: {
+      900: "#1a365d",
+      800: "#153e75",
+      700: "#2a69ac",
+      600: "#5e9ed6",
+      500: "#73b9f6",
+      400: "#91d1ff",
+      300: "#b3e6ff",
+      200: "#d9f1ff",
+      100: "#fcf9fb",
+      50: "#fafafa",
+      25: "#fafafa",
+      0: "#fafafa",
     },
   },
-  config
-);
+  config,
+});
 
 export default theme;
