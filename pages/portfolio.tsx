@@ -14,8 +14,8 @@ export default function Portfolio({
 }): JSX.Element {
   return (
     <Layout>
-      <Heading as="h2" size="md" mb={3}>
-        Portfolio
+      <Heading as="h1" color="#FF4500">
+        'What are my <u>projects?'</u>
       </Heading>
       <Posts posts={portfolios} type="portfolio" />
     </Layout>

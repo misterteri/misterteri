@@ -48,12 +48,15 @@ const Home = (): JSX.Element => {
             </Heading>
 
             <Box fontFamily={"helvetica"} gap={2}>
-              <Heading as="h1">{"Marcelino Gilbert"}</Heading>
+              <Heading as="h1" color="#FF4500">
+                {"Marcelino Gilbert"}
+              </Heading>
               <Text fontSize={"smaller"}>
                 An Undergraduate Student at{" "}
                 <Link
                   href={"https://ibp.nthu.edu.tw/"}
                   fontStyle={"italic"}
+                  fontWeight={"bold"}
                   isExternal
                 >
                   National Tsing Hua University
