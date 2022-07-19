@@ -35,7 +35,8 @@ const Footer: React.FC = () => {
               padding={1}
               fontWeight={"500"}
               _hover={{
-                transition: "all 0.3s ease-in-out",
+                transition: "all 0.5s ease-in-out",
+                transform: "scale(1.02) rotate(360deg)",
               }}
             />
           </Link>

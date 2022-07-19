@@ -28,7 +28,7 @@ export default function Posts({
 
               boxShadow: "0px 3px 10px rgb(255,255,255,0.3)",
               transition: "all 0.3s ease-in-out",
-              transform: "translateY(-5px)",
+              transform: "scale(1.02)",
             }}
           >
             <Text fontSize="sm">
