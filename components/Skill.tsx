@@ -17,21 +17,17 @@ export default function Skill({
         w="max-content"
         h="max-content"
         rounded="md"
-        borderWidth="1px"
-        borderStyle="solid"
-        borderColor="gray.300"
+        backgroundColor={"#1A202C"}
         mr={2}
-        mb={2}
-        _hover={{
-          borderColor: "gray.500",
-          boxShadow: "0 0 0 1px gray.500",
-          cursor: "pointer",
+        mt={2}
+        p={1.5}
+        _dark={{
+          backgroundColor: "white",
         }}
       >
         <Icon w={12} h={12}>
           {icon}
         </Icon>
-        <Text fontSize="md">{name}</Text>
       </Box>
     </Tooltip>
   );

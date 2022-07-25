@@ -52,38 +52,42 @@ export default function SkillSet(): JSX.Element {
         <Flex mt={3} mb={5} wrap="wrap">
           <Skill name="Go" icon={Go} />
           <Skill name="Python" icon={Python} />
-          {/* <ListItem icon={Python} />
-          <ListItem icon={Javascript} />
-          <ListItem icon={Typescript} /> */}
+          <Skill name="Typescript" icon={Typescript} />
+          <Skill name="Javascript" icon={Javascript} />
         </Flex>
       </Stack>
 
-      <Heading as="h2" size="md">
-        Web technologies
-      </Heading>
-      <UnorderedList mt={3} mb={5}>
-        <ListItem ml={5}>React</ListItem>
-        <ListItem ml={5}>Next.js</ListItem>
-        <ListItem ml={5}>Gatsby.js</ListItem>
-        <ListItem ml={5}>ChakraUI</ListItem>
-      </UnorderedList>
+      <Stack mt={5}>
+        <Heading as="h2" size="md">
+          Web technologies
+        </Heading>
+        <Flex mt={3} mb={5} wrap="wrap">
+          <Skill name="React" icon={React} />
+          <Skill name="Next.js" icon={Next} />
+          <Skill name="Gatsby" icon={Gatsby} />
+          <Skill name="ChakraUI" icon={ChakraUI} />
+        </Flex>
+      </Stack>
 
-      <Heading as="h2" size="md">
-        Tools
-      </Heading>
-      <UnorderedList mt={3} mb={5}>
-        <ListItem ml={5}>Git</ListItem>
-        <ListItem ml={5}>Docker</ListItem>
-        <ListItem ml={5}>Kubernetes</ListItem>
-        <ListItem ml={5}>Linux / Unix</ListItem>
-      </UnorderedList>
+      <Stack mt={5}>
+        <Heading as="h2" size="md">
+          Tools
+        </Heading>
+        <Flex mt={3} mb={5} wrap="wrap">
+          <Skill name="Git" icon={Git} />
+          <Skill name="Docker" icon={Docker} />
+          <Skill name="Kubernetes" icon={Kubernetes} />
+        </Flex>
+      </Stack>
 
-      <Heading as="h2" size="md">
-        Database framework
-      </Heading>
-      <UnorderedList mt={3}>
-        <ListItem ml={5}>MongoDB</ListItem>
-      </UnorderedList>
+      <Stack mt={5}>
+        <Heading as="h2" size="md">
+          Database Framework
+        </Heading>
+        <Flex mt={3} mb={5} wrap="wrap">
+          <Skill name="MongoDB" icon={MongoDB} />
+        </Flex>
+      </Stack>
     </Box>
   );
 }
