@@ -13,7 +13,6 @@ export default function Navlink({
   return (
     <NextLink href={href}>
       <Link
-        mr={2}
         rounded={"md"}
         paddingInline={4}
         paddingBlock={2}

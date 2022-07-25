@@ -11,7 +11,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       <Seo />
       <Navbar />
 
-      <Container maxW="container.sm" my={15} position={"sticky"}>
+      <Container maxW="container.md" my={15}>
         <Global styles={prismStyles} />
         {children}
       </Container>
