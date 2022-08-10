@@ -6,12 +6,6 @@ const config: ThemeConfig = {
 };
 
 // customize fonts add "config" to the theme as well
-const theme = extendTheme(config, {
-  fonts: {
-    body: "Inter, system-ui, sans-serif",
-    heading: "Inter, system-ui, sans-serif",
-    mono: "Menlo, monospace",
-  },
-});
+const theme = extendTheme(config, {});
 
 export default theme;
