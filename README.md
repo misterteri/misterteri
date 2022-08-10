@@ -10,6 +10,11 @@ Here some quick facts about myself:
 
 - 🏫 An undergraduate student in the [Electrical Engineering and Computer Science](https://ibp.nthu.edu.tw/) department at [National Tsing Hua University](https://www.nthu.edu.tw/).
 
+Projects that I am currently working on:
+
+- 💻 [Personal Website](https://marcelinogilbertt.vercel.app): built with [Next.js](https://nextjs.org/), [Chakra UI](https://chakra-ui.com/) and [TypeScript](https://www.typescriptlang.org/).
+- 🤖 [Deep Learning Scheduling System](https://github.com/misterteri/schedulearn): built with [python](https://www.python.org/), [Next.js](https://nextjs.org/), [Chakra UI](https://chakra-ui.com/) and [TypeScript](https://www.typescriptlang.org/). Along with [annabella](https://github.com/bellapd) and main developer, [bijon](https://github.com/bsraya).
+
 Here are some of the tools I use:
 
 <h2>Languages</h2>
