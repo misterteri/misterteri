@@ -43,6 +43,8 @@ Here are some of the tools I use:
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/anaconda/anaconda-original-wordmark.svg" alt="anaconda" width="40" height="40" />
 </span>
 
+&nbsp;
+
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=misterteri&theme=dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
 
 ![Marcelino's GitHub stats](https://github-readme-stats.vercel.app/api?username=misterteri&theme=radical&hide_border=true)
