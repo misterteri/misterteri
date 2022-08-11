@@ -1,4 +1,11 @@
-import { Box, Flex, useMediaQuery, Spacer } from "@chakra-ui/react";
+import {
+  Box,
+  Flex,
+  useMediaQuery,
+  Spacer,
+  Avatar,
+  Link,
+} from "@chakra-ui/react";
 import Navlink from "./Navlink";
 
 import Switch from "./Switch";
@@ -14,8 +21,16 @@ export default function Navigation(): JSX.Element {
     >
       <Flex py={2} px={5} maxW="container.md" align="center" mx="auto">
         <>
+          <Link href="/">
+            <Avatar
+              name="Marcelino Gilbert"
+              size="sm"
+              src="../images/avatar.png"
+              cursor="pointer"
+            />
+          </Link>
+          <Spacer />
           <Flex>
-            <Navlink href="/">Home</Navlink>
             <Navlink href="/archives">Archives</Navlink>
             <Navlink href="/about">About</Navlink>
             <Navlink href="/portfolio">Portfolio</Navlink>
