@@ -41,15 +41,18 @@ import Kubeflow from "../icons/kubeflow";
 export default function SkillSet(): JSX.Element {
   return (
     <Box my={10}>
-      <Heading as="h1" color="#FF4500">
-        Technical Skills
+      <Heading as="h1">
+        <Box as="span" bgGradient="linear(to-l, teal.100, teal.500)">
+          Technical Skills
+        </Box>
       </Heading>
 
       <Stack mt={5}>
         <Heading as="h2" size="md">
           Programming Languages
         </Heading>
-        <Flex mt={3} mb={5} wrap="wrap">
+
+        <Flex mt={3} mb={5} flexWrap="wrap">
           <Skill name="Go" icon={Go} />
           <Skill name="Python" icon={Python} />
           <Skill name="Typescript" icon={Typescript} />
@@ -61,6 +64,7 @@ export default function SkillSet(): JSX.Element {
         <Heading as="h2" size="md">
           Web technologies
         </Heading>
+
         <Flex mt={3} mb={5} wrap="wrap">
           <Skill name="React" icon={React} />
           <Skill name="Next.js" icon={Next} />
