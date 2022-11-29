@@ -65,7 +65,7 @@ export default function SkillSet(): JSX.Element {
           Web technologies
         </Heading>
 
-        <Flex mt={3} mb={5} wrap="wrap">
+        <Flex mt={3} mb={5} flexWrap="wrap">
           <Skill name="React" icon={React} />
           <Skill name="Next.js" icon={Next} />
           <Skill name="Gatsby" icon={Gatsby} />
@@ -77,7 +77,7 @@ export default function SkillSet(): JSX.Element {
         <Heading as="h2" size="md">
           Tools
         </Heading>
-        <Flex mt={3} mb={5} wrap="wrap">
+        <Flex mt={3} mb={5} flexWrap="wrap">
           <Skill name="Git" icon={Git} />
           <Skill name="Docker" icon={Docker} />
           <Skill name="Kubernetes" icon={Kubernetes} />
@@ -88,7 +88,7 @@ export default function SkillSet(): JSX.Element {
         <Heading as="h2" size="md">
           Database Framework
         </Heading>
-        <Flex mt={3} mb={5} wrap="wrap">
+        <Flex mt={3} mb={5} flexWrap="wrap">
           <Skill name="MongoDB" icon={MongoDB} />
         </Flex>
       </Stack>
