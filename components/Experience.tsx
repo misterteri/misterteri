@@ -38,7 +38,8 @@ export default function Experience(): JSX.Element {
         <NextLink passHref href="/portfolio/paper-summerizer">
           <Text
             css={{
-              color: "#FF4500",
+              color: "teal",
+              fontWeight: "bold",
               cursor: "pointer",
               "&:hover": {
                 textDecoration: "underline",
@@ -55,7 +56,8 @@ export default function Experience(): JSX.Element {
         <NextLink passHref href="/portfolio/schedulearn">
           <Text
             css={{
-              color: "#FF4500",
+              color: "teal",
+              fontWeight: "bold",
               cursor: "pointer",
               "&:hover": {
                 textDecoration: "underline",
@@ -71,7 +73,8 @@ export default function Experience(): JSX.Element {
         <NextLink passHref href="/portfolio/personal-website">
           <Text
             css={{
-              color: "#FF4500",
+              color: "teal",
+              fontWeight: "bold",
               cursor: "pointer",
               "&:hover": {
                 textDecoration: "underline",
