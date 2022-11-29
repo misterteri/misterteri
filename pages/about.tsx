@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
 
 import {
+  Box,
   Divider,
   Heading,
   HStack,
@@ -21,14 +22,16 @@ export default function About(): JSX.Element {
   return (
     <Layout>
       <Stack>
-        <Heading as="h1" color="#FF4500">
-          'Tell us about yourself?'
+        <Heading as="h1">
+          <Box as="span" bgGradient="linear(to-l, teal.100, teal.500)">
+            About
+          </Box>
         </Heading>
+
         <Text lineHeight="taller">
-          Hey, I am <strong>Marcelino Gilbert Tagore</strong>. I am a Fourth
-          year student, studying{" "}
-          <strong>Electrical Engineering and Computer Science</strong> at
-          National Tsing Hua University in Hsinchu, Taiwan. I am currently
+          Hi! I am <strong>Marcelino Gilbert</strong>, a fourth year student,
+          studying <strong>Electrical Engineering and Computer Science</strong>{" "}
+          at National Tsing Hua University in Hsinchu, Taiwan. I am currently
           working on several projects related to{" "}
           <strong> Web Development</strong> and <strong> API </strong>
         </Text>
