@@ -8,8 +8,6 @@ import {
 } from "@chakra-ui/react";
 import Navlink from "./Navlink";
 
-import Switch from "./Switch";
-
 export default function Navigation(): JSX.Element {
   const resumeLink =
     "https://drive.google.com/file/d/1yUr0Q-JXCaE1HIgRu_Zoph4i2R_vQ_IN/view?usp=share_link";
