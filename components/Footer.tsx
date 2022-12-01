@@ -24,7 +24,18 @@ const Footer: React.FC = () => {
   ];
 
   return (
-    <Flex as="footer" marginBottom={20} direction="column" align="center">
+    // <Flex as="footer" direction="column" align="center">
+    <Flex
+      as="footer"
+      position="absolute"
+      bottom="0"
+      left="0"
+      right="0"
+      height="5rem"
+      align="center"
+      justify="center"
+      bg={useColorModeValue("gray.100", "gray.900")}
+    >
       <Flex maxW="container.md">
         {link.map((item, index) => (
           <Link key={index} as="a" px={4} py={2} rounded={"md"} href={item.url}>
