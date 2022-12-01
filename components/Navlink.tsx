@@ -9,14 +9,24 @@ export default function Navlink({
   href: string;
   children: React.ReactNode;
 }): JSX.Element {
-  const isActive = useRouter().pathname === href;
+  const router = useRouter();
+  var isActive = router.pathname === href;
+
+  if (href.includes("about")) {
+    isActive = router.pathname.includes("/about");
+  }
+
+  if (href.includes("archives")) {
+    isActive = router.pathname.includes("/archives");
+  }
+
   return (
     <NextLink href={href}>
       <Link
-        rounded={"md"}
-        paddingInline={4}
+        // paddingInline={4}
         paddingBlock={2}
-        fontWeight={isActive ? "bolder" : "normal"}
+        color={isActive ? "teal.300" : "black"}
+        backgroundColor={isActive ? "white" : "transparent"}
         _hover={{
           textDecoration: "underline",
           transition: "all 0.3s ease-in-out",
