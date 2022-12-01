@@ -38,13 +38,6 @@ export default function About(): JSX.Element {
       </Stack>
       <Experience />
       <SkillSet />
-      <Text my={5}>
-        For more details, my resume can be downloaded{" "}
-        <Link href={process.env.RESUME_URL} color="#fc909f" isExternal>
-          here
-        </Link>
-        .
-      </Text>
     </Layout>
   );
 }
