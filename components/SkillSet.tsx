@@ -103,6 +103,7 @@ export default function SkillSet(): JSX.Element {
         </Heading>
         <Flex mt={3} mb={5} flexWrap="wrap">
           <Skill name="MongoDB" icon={MongoDB} />
+          <Skill name="Firebase" icon={Firebase} />
         </Flex>
       </Stack>
     </Box>
