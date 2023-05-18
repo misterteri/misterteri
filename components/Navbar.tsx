@@ -11,7 +11,7 @@ import Navlink from "./Navlink";
 
 export default function Navigation(): JSX.Element {
   const resumeLink =
-    "https://drive.google.com/file/d/1yUr0Q-JXCaE1HIgRu_Zoph4i2R_vQ_IN/view?usp=share_link";
+    "https://drive.google.com/file/d/1IVsF6spxLoxz45U-QeJN62OudVsEQ8Av/view?usp=share_link ";
 
   return (
     <Box flexDirection="row" alignItems="center" height="100%" as="nav">
@@ -19,7 +19,7 @@ export default function Navigation(): JSX.Element {
         as="hr"
         height="5px"
         width="100%"
-        bg="teal.500"
+        // bg="teal.500"
         position="absolute"
         top="0"
         left="0"

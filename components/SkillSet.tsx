@@ -41,11 +41,24 @@ import Kubeflow from "../icons/kubeflow";
 export default function SkillSet(): JSX.Element {
   return (
     <Box my={10}>
-      <Heading as="h1">
+      {/* <Heading as="h1">
         <Box as="span" bgGradient="linear(to-l, teal.100, teal.500)">
           Technical Skills
         </Box>
-      </Heading>
+      </Heading> */}
+      <Flex padding="2">
+        <Box
+          display="inline-block"
+          border="2px solid black"
+          padding="2px"
+          background="linear-gradient(45deg, black 8px, #38B2AC 0)"
+          boxShadow="0px 4px 4px rgba(0, 0, 0, 0.4)"
+        >
+          <Text fontSize="xx-large" fontWeight={" bold"}>
+            Technical Skills
+          </Text>
+        </Box>
+      </Flex>
 
       <Stack mt={5}>
         <Heading as="h2" size="md">

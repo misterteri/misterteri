@@ -10,10 +10,12 @@ import {
   Stack,
   Text,
   UnorderedList,
+  Flex,
 } from "@chakra-ui/react";
 import NextLink from "next/link";
 import Experience from "../components/Experience";
 import SkillSet from "../components/SkillSet";
+import avatar from "../public/images/avatar3.png";
 
 export default function About(): JSX.Element {
   const resumeLink =
@@ -22,12 +24,37 @@ export default function About(): JSX.Element {
   return (
     <Layout>
       <Stack>
-        <Heading as="h1">
+        {/* <Heading as="h1">
           <Box as="span" bgGradient="linear(to-l, teal.100, teal.500)">
             About
           </Box>
-        </Heading>
+        </Heading> */}
 
+        <Flex justifyContent="center">
+          <Box
+            as="img"
+            src={"/images/avatar3.png"}
+            alt="Avatar of Marcelino Gilbert"
+            width="200px"
+            height="200px"
+            borderRadius="full"
+            border="2px solid black"
+            boxShadow="0px 4px 4px rgba(0, 0, 0, 0.4)"
+          />
+        </Flex>
+        <Flex padding="2">
+          <Box
+            display="inline-block"
+            border="2px solid black"
+            padding="2px"
+            background="linear-gradient(45deg, black 8px, #38B2AC 0)"
+            boxShadow="0px 4px 4px rgba(0, 0, 0, 0.4)"
+          >
+            <Text fontSize="xx-large" fontWeight={" bold"}>
+              About
+            </Text>
+          </Box>
+        </Flex>
         <Text lineHeight="taller">
           Hi! I am <strong>Marcelino Gilbert</strong>, a fourth year student,
           studying <strong>Electrical Engineering and Computer Science</strong>{" "}

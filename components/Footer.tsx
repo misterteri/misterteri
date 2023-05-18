@@ -34,7 +34,6 @@ const Footer: React.FC = () => {
       height="5rem"
       align="center"
       justify="center"
-      bg={useColorModeValue("gray.100", "gray.900")}
     >
       <Flex maxW="container.md">
         {link.map((item, index) => (

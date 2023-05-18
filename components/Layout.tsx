@@ -7,12 +7,20 @@ import prismStyles from "../styles/prism";
 import { Global } from "@emotion/react";
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
-    <Box as="main" bg="grey" minH="100vh">
-      <Seo />
+    <Box
+      as="main"
+      maxWidth={1000}
+      mx="auto"
+      minHeight="100vh"
+      display="flex"
+      flexDirection="column"
+      justifyContent={"center"}
+    >
+      {/* <Seo /> */}
       <Navbar />
 
-      <Container maxW="container.xl" maxH="100%" as="main" py={10} bg="white">
-        <Global styles={prismStyles} />
+      <Container flexGrow={1} maxWidth={"container.md"} paddingTop="10">
+        {/* <Global styles={prismStyles} /> */}
         {children}
       </Container>
       <Footer />
