@@ -35,20 +35,20 @@ export default function Experience(): JSX.Element {
 
       <HStack my={5}>
         <AiOutlineProject size="2rem" />
-        <NextLink passHref href="/portfolio/paper-summerizer">
-          <Text
-            css={{
-              color: "teal",
-              fontWeight: "bold",
-              cursor: "pointer",
-              "&:hover": {
-                textDecoration: "underline",
-              },
-            }}
-          >
-            Paper Summerizer
-          </Text>
-        </NextLink>
+        {/* <NextLink passHref href="/portfolio/paper-summerizer"> */}
+        <Text
+          css={{
+            color: "teal",
+            fontWeight: "bold",
+            cursor: "pointer",
+            "&:hover": {
+              textDecoration: "underline",
+            },
+          }}
+        >
+          web-mario
+        </Text>
+        {/* </NextLink> */}
       </HStack>
 
       <HStack my={5}>

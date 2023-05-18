@@ -19,7 +19,8 @@ import avatar from "../public/images/avatar3.png";
 
 export default function About(): JSX.Element {
   const resumeLink =
-    "https://drive.google.com/file/d/1fjxrTUREmnR_sHbeM-QrOMA4DqP1hj_o/view?usp=sharing";
+    "https://drive.google.com/file/d/1IVsF6spxLoxz45U-QeJN62OudVsEQ8Av/view?usp=share_link";
+  // https://www.cartoonify.de/
 
   return (
     <Layout>
