@@ -22,6 +22,7 @@ Here are some of the tools I use:
 <img src="https://www.vectorlogo.zone/logos/golang/golang-icon.svg" alt="go" width="40" height="40" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" alt="python" width="40" height="40" />
 <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="typescript" width="40" height="40" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png" alt="javascript" width="40" height="40" />
 </span>
 
 <h2>Web Technologies</h2>
@@ -33,7 +34,8 @@ Here are some of the tools I use:
 
 <h2>Database</h2>
 <span>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original-wordmark.svg" alt="sqlite" width="40" height="40" />
+<img src="https://www.svgrepo.com/show/331488/mongodb.svg" alt="mongodb" width="40" height="40" />
+<img src="https://www.svgrepo.com/show/353735/firebase.svg" alt="firebase" width="40" height="40" />
 </span>
 
 <h2>ML / DL Technologies</h2>
@@ -42,6 +44,17 @@ Here are some of the tools I use:
 <img src="https://user-images.githubusercontent.com/16640218/34506318-84d0c06c-efe0-11e7-8831-0425772ed8f2.png" alt="horovod" width="40" height="40" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/anaconda/anaconda-original-wordmark.svg" alt="anaconda" width="40" height="40" />
 </span>
+
+<h2> Game Development </h2>
+<span>
+<img src="https://download.cocos.com/CocosUdc/client/dae922b126/1eb776afa85e5ae6dd17fd1939a12948.png" alt="cocos" width="40" height="40" />
+</span>
+
+<h2>Tools</h2>
+<span>
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" />
+<img  src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg" alt="docker" width="40" height="40" />
+<img   src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40" />
 
 &nbsp;
 
