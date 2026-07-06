@@ -1,60 +1,59 @@
-# Hey, I am Marcelino👋
+# Hey, I'm Marcelino 👋
 
 <p align="center">
-<a target="_blank" href="https://marcelinogilbertt.vercel.app/"><img src="https://img.shields.io/badge/-WEB-6B46C1?style=for-the-badge&logo=Next.js&logoColor=white"></img></a>	
+<a target="_blank" href="https://marcelinogilbertt.vercel.app/"><img src="https://img.shields.io/badge/-WEBSITE-6B46C1?style=for-the-badge&logo=Next.js&logoColor=white"></img></a>
 <a target="_blank" href="https://www.linkedin.com/in/marcelino-gilbert-07823621a/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"></img></a>
 <a target="_blank" href="mailto:marcelinogilbert26@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=Gmail&logoColor=white"></img></a>
 </p>
 
-Here some quick facts about myself:
+- 🤖 **AI Engineer at Gemtek Technology** — sole AI developer in the IT department, building production RAG pipelines, LLM agents, and edge AI systems.
+- 🎓 B.Sc. Computer Science, [National Tsing Hua University](https://www.nthu.edu.tw/) (2024).
+- 🔭 Focused on retrieval-augmented generation, LLM evaluation, and applied AI in production — not just demos that work once.
 
-- 🏫 An undergraduate student in the [Electrical Engineering and Computer Science](https://ibp.nthu.edu.tw/) department at [National Tsing Hua University](https://www.nthu.edu.tw/).
+## 🚀 Featured project
 
-Projects that I am currently working on:
+### [rag-epub](https://github.com/misterteri/rag-epub) — local-first RAG over classic books
 
-- 💻 [Personal Website](https://marcelinogilbertt.vercel.app): built with [Next.js](https://nextjs.org/), [Chakra UI](https://chakra-ui.com/) and [TypeScript](https://www.typescriptlang.org/).
-- 🤖 [Deep Learning Scheduling System](https://github.com/misterteri/schedulearn): built with [python](https://www.python.org/), [Next.js](https://nextjs.org/), [Chakra UI](https://chakra-ui.com/) and [TypeScript](https://www.typescriptlang.org/). Along with [annabella](https://github.com/bellapd) and main developer, [bijon](https://github.com/bsraya).
+Hybrid retrieval (BM25 + dense) → cross-encoder reranking → local LLM generation, tuned against a
+100-question RAGAS golden set with a documented decision log (every experiment, kept or discarded,
+with the numbers). No cloud vector DB, no hosted LLM required to run it yourself.
 
-Here are some of the tools I use:
+**[Try the live demo →](https://huggingface.co/spaces/misterteri/rag-epub)** &nbsp;|&nbsp; **[Read the eval methodology →](https://github.com/misterteri/rag-epub/blob/main/eval/RESULTS.md)**
 
-<h2>Languages</h2>
-<span>
-<img src="https://www.vectorlogo.zone/logos/golang/golang-icon.svg" alt="go" width="40" height="40" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" alt="python" width="40" height="40" />
-<img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="typescript" width="40" height="40" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png" alt="javascript" width="40" height="40" />
-</span>
+## Other projects
 
-<h2>Web Technologies</h2>
-<span>
-<img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="react" width="40" height="40" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" alt="nextjs" width="40" height="40" />
-<img src="https://raw.githubusercontent.com/get-icon/geticon/master/icons/chakra-icon.svg" alt="chakraui" width="40" height="40" />
-</span>
+- 🌐 [Personal website](https://marcelinogilbertt.vercel.app) — Next.js portfolio. *Rebuilding on a new domain — in progress.*
+- 🚧 **Text-to-SQL Agent** (`rag-sql`) — natural-language → SQL over an enterprise database, with query validation and result summarization. *Private; clean-room public rebuild in progress.*
+- 🚧 **AI Visitor Kiosk** (`visitor-management-system`) — edge-deployed AI receptionist on NVIDIA Jetson, local STT/TTS/VLM, QR check-in, host notification. *Private; clean-room public rebuild in progress.*
+- 🎛️ [schedulearn](https://github.com/misterteri/schedulearn-uni) — deep learning training/scheduling UI. *Being reworked.*
 
-<h2>Database</h2>
-<span>
-<img src="https://www.svgrepo.com/show/331488/mongodb.svg" alt="mongodb" width="40" height="40" />
-<img src="https://www.svgrepo.com/show/353735/firebase.svg" alt="firebase" width="40" height="40" />
-</span>
+## Tech I work with
 
-<h2>ML / DL Technologies</h2>
-<span>
-<img src="https://raw.githubusercontent.com/valohai/ml-logos/master/keras.svg" alt="keras" width="40" height="40" />
-<img src="https://user-images.githubusercontent.com/16640218/34506318-84d0c06c-efe0-11e7-8831-0425772ed8f2.png" alt="horovod" width="40" height="40" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/anaconda/anaconda-original-wordmark.svg" alt="anaconda" width="40" height="40" />
-</span>
+**Languages**
+<br>
+![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
-<h2> Game Development </h2>
-<span>
-<img src="https://download.cocos.com/CocosUdc/client/dae922b126/1eb776afa85e5ae6dd17fd1939a12948.png" alt="cocos" width="40" height="40" />
-</span>
+**AI / LLM**
+<br>
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Ollama](https://img.shields.io/badge/-Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/-LangGraph-2B6CB0?style=for-the-badge&logoColor=white)
+![LlamaIndex](https://img.shields.io/badge/-LlamaIndex-6E56CF?style=for-the-badge&logoColor=white)
+![Weaviate](https://img.shields.io/badge/-Weaviate-1D9A6C?style=for-the-badge&logoColor=white)
+![LiteLLM](https://img.shields.io/badge/-LiteLLM-4B5563?style=for-the-badge&logoColor=white)
+![Langfuse](https://img.shields.io/badge/-Langfuse-0E7C61?style=for-the-badge&logoColor=white)
 
-<h2>Tools</h2>
-<span>
-<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" />
-<img  src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg" alt="docker" width="40" height="40" />
-<img   src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40" />
+**Infra / Backend**
+<br>
+![GCP Vertex AI](https://img.shields.io/badge/-GCP%20Vertex%20AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 
 &nbsp;
 
