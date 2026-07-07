@@ -1,7 +1,6 @@
 # Hey, I'm Marcelino 👋
 
 <p align="center">
-<a target="_blank" href="https://marcelinogilbertt.vercel.app/"><img src="https://img.shields.io/badge/-WEBSITE-6B46C1?style=for-the-badge&logo=Next.js&logoColor=white"></img></a>
 <a target="_blank" href="https://www.linkedin.com/in/marcelino-gilbert-07823621a/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"></img></a>
 <a target="_blank" href="mailto:marcelinogilbert26@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=Gmail&logoColor=white"></img></a>
 </p>
@@ -23,7 +22,6 @@ and local Ollama generation, so you can run the whole pipeline yourself.
 
 ## Other projects
 
-- 🌐 [Personal website](https://marcelinogilbertt.vercel.app) — Next.js portfolio. *Rebuilding on a new domain — in progress.*
 - 🚧 **Text-to-SQL Agent** (`rag-sql`) — natural-language → SQL over a live **Oracle 11g** database, with a self-correcting SQL-optimization step and auto-generated vendor price-trend charts. *Private; clean-room public rebuild in progress.*
 - 🚧 **AI Visitor Kiosk** (`visitor-management-system`) — AI receptionist on NVIDIA Jetson: local STT/TTS/VLM, a LiteLLM-routed agent, QR check-in, host notification. *Private; clean-room public rebuild in progress.*
 - 🎛️ [schedulearn](https://github.com/misterteri/schedulearn-uni) — deep learning training/scheduling UI. *Being reworked.*
