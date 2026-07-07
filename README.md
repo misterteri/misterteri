@@ -24,7 +24,6 @@ and local Ollama generation, so you can run the whole pipeline yourself.
 
 - 🚧 **Text-to-SQL Agent** (`rag-sql`) — natural-language → SQL over a live **Oracle 11g** database, with a self-correcting SQL-optimization step and auto-generated vendor price-trend charts. *Private; clean-room public rebuild in progress.*
 - 🚧 **AI Visitor Kiosk** (`visitor-management-system`) — AI receptionist on NVIDIA Jetson: local STT/TTS/VLM, a LiteLLM-routed agent, QR check-in, host notification. *Private; clean-room public rebuild in progress.*
-- 🎛️ [schedulearn](https://github.com/misterteri/schedulearn-uni) — deep learning training/scheduling UI. *Being reworked.*
 
 ## Tech I work with
 
