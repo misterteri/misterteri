@@ -57,11 +57,12 @@ export default function About(): JSX.Element {
           </Box>
         </Flex>
         <Text lineHeight="taller">
-          Hi! I am <strong>Marcelino Gilbert</strong>, a fourth year student,
-          studying <strong>Electrical Engineering and Computer Science</strong>{" "}
-          at National Tsing Hua University in Hsinchu, Taiwan. I am currently
-          working on several projects related to{" "}
-          <strong> Web Development</strong> and <strong> API </strong>
+          Hi! I am <strong>Marcelino Gilbert</strong>, an{" "}
+          <strong>AI Engineer at Gemtek Technology</strong>, with a{" "}
+          <strong>B.Sc. in Computer Science</strong> from National Tsing Hua
+          University in Hsinchu, Taiwan. I build production{" "}
+          <strong>RAG and LLM systems</strong> — retrieval-augmented
+          generation, agentic workflows, and edge AI on NVIDIA Jetson.
         </Text>
       </Stack>
       <Experience />

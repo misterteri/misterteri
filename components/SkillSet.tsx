@@ -24,7 +24,6 @@ import Typescript from "../icons/typescript";
 import Javascript from "../icons/javascript";
 import React from "../icons/react";
 import Linux from "../icons/linux";
-import Kubernetes from "../icons/kubernetes";
 import Docker from "../icons/docker";
 import Git from "../icons/git";
 import Next from "../icons/next";
@@ -34,7 +33,6 @@ import ChakraUI from "../icons/chakraui";
 import Firebase from "../icons/firebase";
 import Anaconda from "../icons/anaconda";
 import Keras from "../icons/keras";
-import Tensorflow from "../icons/tensorflow";
 import Horovod from "../icons/horovod";
 import Kubeflow from "../icons/kubeflow";
 
@@ -93,7 +91,6 @@ export default function SkillSet(): JSX.Element {
         <Flex mt={3} mb={5} flexWrap="wrap">
           <Skill name="Git" icon={Git} />
           <Skill name="Docker" icon={Docker} />
-          <Skill name="Kubernetes" icon={Kubernetes} />
         </Flex>
       </Stack>
 

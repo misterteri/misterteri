@@ -90,7 +90,7 @@ const Home = (): JSX.Element => {
           <Text fontSize="xl" fontWeight="bold" color="black">
             {/* Computer Science Student, Web Developer, and a Tech Enthusiast. */}
             <ColoredUnderlineText>
-              Computer Science Student
+              AI Engineer
             </ColoredUnderlineText>
             {", "}
             <ColoredUnderlineText>Web Developer</ColoredUnderlineText>
