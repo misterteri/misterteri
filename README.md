@@ -16,15 +16,16 @@
 
 Hybrid retrieval (BM25 + dense) → cross-encoder reranking → local LLM generation, tuned against a
 100-question RAGAS golden set with a documented decision log (every experiment, kept or discarded,
-with the numbers). No cloud vector DB, no hosted LLM required to run it yourself.
+with the numbers, gated by paired-bootstrap significance). Self-hosted Weaviate — no cloud vector DB,
+and local Ollama generation, so you can run the whole pipeline yourself.
 
 **[Try the live demo →](https://huggingface.co/spaces/misterteri/rag-epub)** &nbsp;|&nbsp; **[Read the eval methodology →](https://github.com/misterteri/rag-epub/blob/main/eval/RESULTS.md)**
 
 ## Other projects
 
 - 🌐 [Personal website](https://marcelinogilbertt.vercel.app) — Next.js portfolio. *Rebuilding on a new domain — in progress.*
-- 🚧 **Text-to-SQL Agent** (`rag-sql`) — natural-language → SQL over an enterprise database, with query validation and result summarization. *Private; clean-room public rebuild in progress.*
-- 🚧 **AI Visitor Kiosk** (`visitor-management-system`) — edge-deployed AI receptionist on NVIDIA Jetson, local STT/TTS/VLM, QR check-in, host notification. *Private; clean-room public rebuild in progress.*
+- 🚧 **Text-to-SQL Agent** (`rag-sql`) — natural-language → SQL over a live **Oracle 11g** database, with a self-correcting SQL-optimization step and auto-generated vendor price-trend charts. *Private; clean-room public rebuild in progress.*
+- 🚧 **AI Visitor Kiosk** (`visitor-management-system`) — AI receptionist on NVIDIA Jetson: local STT/TTS/VLM, a LiteLLM-routed agent, QR check-in, host notification. *Private; clean-room public rebuild in progress.*
 - 🎛️ [schedulearn](https://github.com/misterteri/schedulearn-uni) — deep learning training/scheduling UI. *Being reworked.*
 
 ## Tech I work with
