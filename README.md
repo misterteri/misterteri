@@ -18,7 +18,7 @@ Hybrid retrieval (BM25 + dense) → cross-encoder reranking → local LLM genera
 with the numbers, gated by paired-bootstrap significance). Self-hosted Weaviate — no cloud vector DB,
 and local Ollama generation, so you can run the whole pipeline yourself.
 
-**[Try the live demo →](https://huggingface.co/spaces/misterteri/rag-epub)** &nbsp;|&nbsp; **[Read the eval methodology →](https://github.com/misterteri/rag-epub/blob/main/eval/RESULTS.md)**
+[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-md.svg)](https://huggingface.co/spaces/misterteri/rag-epub) &nbsp;|&nbsp; **[Read the eval methodology →](https://github.com/misterteri/rag-epub/blob/main/eval/RESULTS.md)**
 
 ## Other projects
 
