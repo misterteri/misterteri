@@ -9,7 +9,7 @@
 - 🎓 B.Sc. Computer Science, [National Tsing Hua University](https://www.nthu.edu.tw/) (2024).
 - 🔭 Focused on retrieval-augmented generation, LLM evaluation, and applied AI in production — not just demos that work once.
 
-## 🚀 Featured project
+## 🚀 Featured projects
 
 ### [rag-epub](https://github.com/misterteri/rag-epub) — local-first RAG over classic books
 
@@ -20,9 +20,18 @@ and local Ollama generation, so you can run the whole pipeline yourself.
 
 [![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-md.svg)](https://huggingface.co/spaces/misterteri/rag-epub) &nbsp;|&nbsp; **[Read the eval methodology →](https://github.com/misterteri/rag-epub/blob/main/eval/RESULTS.md)**
 
+### [rag-sql](https://github.com/misterteri/rag-sql) — natural-language → SQL agent with a guardrail
+
+LangGraph agent that turns natural language into SQL, with a self-correcting repair step and an
+adversarial guardrail in front of execution. Evaluated on a self-authored 111-question golden set
+against a synthetic database (not Spider/BIRD): 0.77 exec-accuracy overall (0.93 easy / 0.89 medium
+/ 0.32 hard, ±~0.05 bootstrap CI), 0.99 valid-SQL rate, and the guardrail blocked 34/34 adversarial
+attempts with 0 false positives across 27 benign edge cases.
+
+[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-md.svg)](https://huggingface.co/spaces/misterteri/rag-sql) &nbsp;|&nbsp; **[Read the eval methodology →](https://github.com/misterteri/rag-sql/blob/main/eval/RESULTS.md)**
+
 ## Other projects
 
-- 🚧 **Text-to-SQL Agent** (`rag-sql`) — natural-language → SQL over a live **Oracle 11g** database, with a self-correcting SQL-optimization step and auto-generated vendor price-trend charts. *Private; clean-room public rebuild in progress.*
 - 🚧 **AI Visitor Kiosk** (`visitor-management-system`) — AI receptionist on NVIDIA Jetson: local STT/TTS/VLM, a LiteLLM-routed agent, QR check-in, host notification. *Private; clean-room public rebuild in progress.*
 
 ## Tech I work with
@@ -54,6 +63,6 @@ and local Ollama generation, so you can run the whole pipeline yourself.
 
 &nbsp;
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=misterteri&theme=dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=misterteri&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=EFE7DC&ring=14555A&fire=C9683D&currStreakNum=24292D&currStreakLabel=14555A&sideNums=14555A&sideLabels=7C9A92&dates=7C9A92&stroke=14555A)](https://git.io/streak-stats)
 
-![Marcelino's GitHub stats](https://github-readme-stats.vercel.app/api?username=misterteri&theme=radical&hide_border=true)
+![Marcelino's GitHub stats](https://github-readme-stats.vercel.app/api?username=misterteri&hide_border=true&bg_color=EFE7DC&title_color=14555A&icon_color=C9683D&text_color=24292D)
