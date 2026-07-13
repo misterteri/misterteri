@@ -6,7 +6,7 @@
 </p>
 
 - 🤖 **AI Engineer at Gemtek Technology** — sole AI developer in the IT department, building production RAG pipelines, LLM agents, and edge AI systems.
-- 🎓 B.Sc. Computer Science, [National Tsing Hua University](https://www.nthu.edu.tw/) (2024).
+- 🎓 B.Sc. Electrical Engineering & Computer Science, International Bachelor Program, Tsing Hua College, [National Tsing Hua University](https://eecs-gs.site.nthu.edu.tw/index.php?Lang=en) (2024).
 - 🔭 Focused on retrieval-augmented generation, LLM evaluation, and applied AI in production — not just demos that work once.
 
 ## 🚀 Featured projects
