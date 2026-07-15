@@ -5,7 +5,7 @@
 <a target="_blank" href="mailto:marcelinogilbert26@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=Gmail&logoColor=white"></img></a>
 </p>
 
-- 🤖 **AI Engineer at Gemtek Technology** — sole AI developer in the IT department, building production RAG pipelines, LLM agents, and edge AI systems.
+- 🤖 **AI Engineer at Gemtek Technology Co., Ltd. (正文科技股份有限公司)** — sole AI developer in the IT department, building production RAG pipelines, LLM agents, and edge AI systems.
 - 🎓 B.Sc. Electrical Engineering & Computer Science, International Bachelor Program, Tsing Hua College, [National Tsing Hua University](https://eecs-gs.site.nthu.edu.tw/index.php?Lang=en) (2024).
 - 🔭 Focused on retrieval-augmented generation, LLM evaluation, and applied AI in production — not just demos that work once.
 
@@ -60,6 +60,11 @@ attempts with 0 false positives across 27 benign edge cases.
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+
+**Agentic Coding**
+<br>
+![Claude Code](https://img.shields.io/badge/-Claude%20Code-D97757?style=for-the-badge&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/-GitHub%20Copilot-000000?style=for-the-badge&logoColor=white)
 
 &nbsp;
 
